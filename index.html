@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelicore | Infrastructure that just works</title>
+  <meta name="description" content="Kelicore specialises in infrastructure for venues and event spaces. WiFi and networks that hold up on a full-house night. Fixed-price venue health check, £495. Cloud, AWS, on-prem and networks for any business. South West England.">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon-180.png">
+  <link rel="canonical" href="https://kelicore.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kelicore | Infrastructure that just works">
+  <meta property="og:description" content="Kelicore specialises in infrastructure for venues and event spaces. WiFi and networks that hold up on a full-house night. Fixed-price venue health check, £495. Cloud, AWS, on-prem and networks for any business. South West England.">
+  <meta property="og:url" content="https://kelicore.com/">
+  <meta property="og:image" content="https://kelicore.com/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="Kelicore specialises in infrastructure for venues and event spaces. WiFi and networks that hold up on a full-house night. Fixed-price venue health check, £495. Cloud, AWS, on-prem and networks for any business. South West England.">
+
+  <!-- Fonts: Manrope is the brand typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured data: helps search engines understand the business, its
+       location, services and the Pavilions Teignmouth reference. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://kelicore.com/#business",
+    "name": "Kelicore Ltd",
+    "alternateName": "Kelicore",
+    "url": "https://kelicore.com/",
+    "logo": "https://kelicore.com/assets/logo-light-bg.svg",
+    "image": "https://kelicore.com/assets/og-image.png",
+    "description": "Independent, founder-led infrastructure practice specialising in venues and event spaces. The same engineering applied to any business-critical environment: cloud, AWS, on-premises, networks and WiFi.",
+    "email": "hello@kelicore.com",
+    "telephone": "+44 1626 798121",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Devon",
+      "addressCountry": "GB"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "South West England"
+    },
+    "knowsAbout": [
+      "Venue and event infrastructure",
+      "Amazon Web Services (AWS)",
+      "Cloud infrastructure",
+      "On-premises servers and systems",
+      "Networks and WiFi",
+      "Infrastructure monitoring"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Infrastructure services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Venue & event infrastructure" } },
+        { "@type": "Offer", "price": "495", "priceCurrency": "GBP", "itemOffered": { "@type": "Service", "name": "Venue WiFi & Network Health Check" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cloud & AWS platforms" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Servers, on-prem & networks" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Monitoring & managed support" } }
+      ]
+    },
+    "review": {
+      "@type": "Review",
+      "reviewBody": "It is like a weight has been lifted. The service is reliable, and Ben and the team are always happy to help.",
+      "author": { "@type": "Person", "name": "Nikki" },
+      "publisher": { "@type": "Organization", "name": "Pavilions Teignmouth" }
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="nav__brand" href="#top" aria-label="Kelicore home">
+        <img src="assets/logo-dark-bg.svg" alt="Kelicore" class="nav__logo">
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#venues">Venues &amp; events</a></li>
+        <li><a href="#healthcheck">Health check</a></li>
+        <li><a href="#services">What we do</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav__cta">Get in touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__inner container">
+        <p class="hero__eyebrow">Kelicore</p>
+        <h1 class="hero__title">Infrastructure that just works, wherever it runs.</h1>
+        <p class="hero__subtitle">
+          We work with venues, event spaces and hospitality sites: theatres,
+          arts centres, conference and exhibition spaces and wedding venues.
+          These are places where everything has to hold up on a full-house
+          night, and where guest reviews follow the WiFi. The same standard
+          applies to everything we build: cloud platforms on AWS, on-prem
+          servers and systems, networks and WiFi, designed, built and kept
+          running.
+        </p>
+        <!-- TODO: BOOKING_URL: replace the primary CTA href with a booking link if you want one. Falls back to mailto for now. -->
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="mailto:hello@kelicore.com?subject=Infrastructure%20enquiry">Get in touch</a>
+          <a class="btn btn--ghost" href="#venues">See our venue work</a>
+        </div>
+        <ul class="hero__chips" aria-label="What we do">
+          <li class="chip">Venues &amp; events</li>
+          <li class="chip">Cloud &amp; AWS</li>
+          <li class="chip">Servers &amp; on-prem</li>
+          <li class="chip">Networks &amp; WiFi</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Venues & events: a specialism -->
+    <section class="section" id="venues">
+      <div class="container section__narrow">
+        <p class="card__tag">A specialism</p>
+        <h2 class="section__title">Venues &amp; events</h2>
+        <p>
+          Event spaces have a harder version of the same problem: everything has
+          to hold up on a full-house night, with no second chances. This is
+          where reliable infrastructure matters most, and it is work we are
+          especially built for.
+        </p>
+        <p>
+          The same problem shows up on holiday parks, campsites and marinas,
+          and we work on those sites too: guests judge a stay by whether the
+          WiFi works, and their reviews say so.
+        </p>
+        <ul class="tier__list">
+          <li>WiFi engineered to handle hundreds or thousands of devices at once, without the dead spots</li>
+          <li>Segmented networks so card payments and ticketing stay fast and protected even when guest WiFi is busy</li>
+          <li>Event-day readiness ahead of your key dates, with cover arranged around your calendar</li>
+          <li>A local point of contact who knows your venue</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Health check: fixed-price entry offer -->
+    <section class="section section--tint" id="healthcheck">
+      <div class="container section__narrow">
+        <p class="card__tag">Fixed price &middot; No obligation</p>
+        <h2 class="section__title">Venue WiFi &amp; Network Health Check</h2>
+        <p>
+          A full on-site audit of your WiFi coverage, network performance,
+          security and resilience, tested properly where your guests actually
+          are. Within one week of the visit you get a written report with
+          prioritised recommendations: what is solid, what is at risk, and what
+          to fix first.
+        </p>
+        <ul class="tier__list">
+          <li>WiFi coverage and capacity surveyed across your site, dead spots included</li>
+          <li>Network performance, security and resilience checked end to end</li>
+          <li>Written report with prioritised recommendations, delivered within a week</li>
+        </ul>
+        <p class="healthcheck__price">&pound;495 <span>fixed fee</span></p>
+        <p>
+          No obligation and no contract, just a low-risk first step, so you
+          know exactly where you stand before your next full-house night.
+        </p>
+        <a class="btn btn--primary" href="#contact" data-prefill="healthcheck">Book a health check</a>
+      </div>
+    </section>
+
+    <!-- Proof -->
+    <section class="section" id="proof">
+      <div class="container section__narrow">
+        <h2 class="section__title">Proof</h2>
+        <article class="card card--feature">
+          <p class="card__tag">Pavilions Teignmouth</p>
+          <p class="card__body">
+            Pavilions Teignmouth had struggled for years with poor internet
+            connectivity and network reliability issues. Kelicore carried out
+            a full audit and assessment, then installed a new leased line with a
+            failover fibre-to-the-cabinet (FTTC) connection, put in a new phone
+            system, and made significant network management changes to improve
+            performance and security. The result is a better performing, more
+            secure and more reliable service, with 100% uptime since
+            Kelicore took over the network. It is exactly the kind of
+            dependable, behind-the-scenes work we are built for.
+          </p>
+          <blockquote class="quote">
+            <p class="quote__text">
+              &ldquo;It is like a weight has been lifted. The service is reliable,
+              and Ben and the team are always happy to help.&rdquo;
+            </p>
+            <footer class="quote__cite">Nikki, Manager, Pavilions Teignmouth</footer>
+          </blockquote>
+        </article>
+      </div>
+    </section>
+
+    <!-- What we do -->
+    <section class="section section--tint" id="services">
+      <div class="container">
+        <h2 class="section__title section__title--center">What we do</h2>
+        <p class="section__lead">
+          The same engineering that keeps a full venue online on a Friday night,
+          applied to any business-critical infrastructure. Cloud, on-premises, or
+          a blend of both: we put each part where it makes sense, build it
+          properly, and keep it that way.
+        </p>
+
+        <article class="card card--feature">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>
+          </div>
+          <p class="card__tag">The whole picture</p>
+          <h3 class="card__title">Infrastructure, wherever it runs</h3>
+          <p class="card__body">
+            No dogma about cloud versus on-premises. We design and build the whole
+            picture and put each workload where it fits your data, your costs and
+            your operations, from a cloud platform to a server in your building,
+            joined up and kept running. One practice with cloud and security
+            engineering alongside real networking and hardware experience.
+          </p>
+        </article>
+
+        <div class="cards cards--three">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a4 4 0 0 1 0-8 5.5 5.5 0 0 1 10.6-1.5A3.75 3.75 0 0 1 18 18H7Z"/></svg>
+            </div>
+            <h3 class="card__title">Cloud &amp; AWS platforms</h3>
+            <p class="card__body">
+              Architecture, migrations and platform builds on Amazon Web Services
+              (AWS). Infrastructure as code with Terraform, container platforms
+              with Kubernetes, and cloud cost kept under control. Cloud and
+              security engineering is a core strength.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="15" width="6" height="6" rx="1"/><rect x="15" y="3" width="6" height="6" rx="1"/><rect x="3" y="15" width="6" height="6" rx="1"/><path d="M9 6h6M6 9v6M18 9v6M9 18h6"/></svg>
+            </div>
+            <h3 class="card__title">Servers, on-prem &amp; networks</h3>
+            <p class="card__body">
+              Servers, storage and on-prem systems specified, deployed and
+              maintained, plus the networks, WiFi and connectivity
+              underneath. The reliable, hands-on foundation, built properly and
+              easy to live with.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 5 4-12 2 7h6"/></svg>
+            </div>
+            <h3 class="card__title">Monitored &amp; kept running</h3>
+            <p class="card__body">
+              A managed service on a monthly retainer: we keep an eye on it so
+              you do not have to. Monitored around the clock, with hands-on
+              support during agreed hours, cloud or on-site, with problems
+              spotted and dealt with before they reach you. Service tiers are
+              available to suit different sizes of site, and for venues we
+              arrange cover around your event calendar so the nights that
+              matter are looked after.
+            </p>
+            <a class="card__link" href="#contact">Ask about managed service pricing</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container section__narrow">
+        <h2 class="section__title">About Kelicore</h2>
+        <p>
+          Kelicore is a founder-led infrastructure practice, built on around
+          20 years of hands-on experience in technology, including 14 years
+          building large-scale WiFi networks for venues across the UK: hundreds
+          of venues, thousands of concurrent users, in spaces where failure on
+          the night is not an option.
+        </p>
+        <p>
+          That background spans cloud and security engineering, on-premises
+          systems, and the kind of high-density, demanding WiFi environments most
+          providers never encounter.
+        </p>
+        <p>
+          Senior-led, hands-on, and based in Devon. You always deal directly
+          with the founder, with trusted engineering support brought in for
+          larger jobs. Every engagement is run at the same level of attention,
+          whether it is a venue network, a cloud platform, or a server room.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact" id="contact">
+      <div class="container section__narrow section__narrow--center">
+        <h2 class="section__title section__title--center">Let's talk</h2>
+        <p class="section__lead">
+          Got infrastructure that needs to be more reliable than it is, a cloud
+          platform, a server room, a network, or a venue full of people on a
+          Friday night? Tell us what you are dealing with and we will tell you
+          honestly how we can help.
+        </p>
+        <!-- Web3Forms access key (public by design; it only permits submissions,
+             the domain lock in the Web3Forms dashboard prevents abuse). -->
+        <!-- TODO: WEB3FORMS_KEY: this key is domain-locked to cloudifinity.com.
+             Create a new access key for kelicore.com (or add the domain to the
+             existing key) in the Web3Forms dashboard before launch, then
+             replace the value below. -->
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="3d0f3ae3-8af6-45b0-99b5-92fe1067adc7">
+          <input type="hidden" name="subject" value="New enquiry from kelicore.com">
+          <input type="hidden" name="from_name" value="Kelicore website">
+          <!-- Honeypot: bots fill this, humans never see it -->
+          <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+
+          <div class="form__row">
+            <div class="form__field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="form__field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </div>
+
+          <div class="form__field">
+            <label for="urgency">How urgent is it?</label>
+            <select id="urgency" name="urgency">
+              <option>Just exploring or planning ahead</option>
+              <option>Something to sort out soon</option>
+              <option>Live problem, need help now</option>
+            </select>
+          </div>
+
+          <div class="form__field">
+            <label for="message">What are you dealing with?</label>
+            <textarea id="message" name="message" rows="5" required placeholder="A cloud platform, a server room, a network, or a venue full of people on a Friday night..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg">Send enquiry</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+
+        <!-- Shown in place of the form once a message sends successfully -->
+        <div class="form-success" hidden>
+          <div class="form-success__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <h3 class="form-success__title">Thanks, message received.</h3>
+          <p class="form-success__text">
+            Your enquiry is with us and we will get back to you shortly.
+            If it cannot wait, call <a href="tel:+441626798121">01626 798121</a>.
+          </p>
+        </div>
+
+        <p class="contact-alt">
+          Prefer to talk directly?
+          <a href="mailto:hello@kelicore.com">hello@kelicore.com</a>
+          or call <a href="tel:+441626798121">01626 798121</a>.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="assets/logo-dark-bg.svg" alt="Kelicore" class="footer__logo">
+      <p class="footer__meta">
+        &copy; <span id="year">2026</span> Kelicore Ltd. Cloud, on-prem and
+        network infrastructure that just works.
+      </p>
+    </div>
+    <div class="container footer__trust">
+      <!-- TODO: COMPANY_NUMBER: replace with the Kelicore Ltd company number once registered. -->
+      <span>Kelicore Ltd, registered in England &amp; Wales, company no. [TODO].</span>
+      <!-- TODO: INSURANCE_WORDING: confirm professional indemnity wording / cover amount. -->
+      <span>Fully insured, including professional indemnity.</span>
+      <!-- TODO: add a Cyber Essentials line here once the certification is held, e.g. "Cyber Essentials certified." -->
+    </div>
+  </footer>
+
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile nav toggle
+    var toggle = document.querySelector('.nav__toggle');
+    var menu = document.getElementById('nav-menu');
+    toggle.addEventListener('click', function () {
+      var open = menu.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+    // Close menu when a link is tapped (mobile)
+    menu.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') {
+        menu.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Contact form: submit to Web3Forms via fetch so we can show an inline
+    // success message. Without JS the form still posts natively and works.
+    var form = document.querySelector('.contact-form');
+    if (form) {
+      // Health check CTA: pre-fill the contact form so the enquiry arrives
+      // tagged as a booking. Without JS the button still jumps to the form.
+      var prefillLinks = document.querySelectorAll('[data-prefill="healthcheck"]');
+      Array.prototype.forEach.call(prefillLinks, function (link) {
+        link.addEventListener('click', function () {
+          form.querySelector('input[name="subject"]').value = 'Health check booking';
+          var message = form.querySelector('#message');
+          if (message && !message.value) {
+            message.value = 'I would like to book a Venue WiFi & Network Health Check.';
+          }
+        });
+      });
+
+      // Note: do not name this "status". A global "var status" aliases the
+      // special window.status property, which coerces to a string and silently
+      // discards the element, so no messages would ever show.
+      var statusEl = form.querySelector('.form__status');
+      var showError = function (msg) {
+        statusEl.className = 'form__status is-error';
+        statusEl.textContent = msg || 'Something went wrong. Please email hello@kelicore.com.';
+      };
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var submitBtn = form.querySelector('button[type="submit"]');
+        submitBtn.disabled = true;
+        statusEl.className = 'form__status is-sending';
+        statusEl.textContent = 'Sending...';
+        fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: new FormData(form)
+        })
+          .then(function (res) {
+            return res.json().then(function (json) { return { ok: res.ok, json: json }; });
+          })
+          .then(function (r) {
+            if (r.ok && r.json && r.json.success) {
+              form.reset();
+              // Swap the form out for a clear confirmation panel
+              form.hidden = true;
+              statusEl.textContent = '';
+              var success = document.querySelector('.form-success');
+              success.hidden = false;
+              success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            } else {
+              showError(r.json && r.json.message);
+            }
+          })
+          .catch(function () { showError(); })
+          .then(function () { submitBtn.disabled = false; });
+      });
+    }
+  </script>
+
+</body>
+</html>
