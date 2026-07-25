@@ -82,7 +82,7 @@ button:focus-visible,
 }
 
 .nav__brand { display: inline-flex; align-items: center; }
-.nav__logo { height: 26px; width: auto; display: block; }
+.nav__logo { height: 36px; width: auto; display: block; }
 
 .nav__menu {
   list-style: none;
@@ -537,7 +537,7 @@ button:focus-visible,
   gap: 1rem;
   flex-wrap: wrap;
 }
-.footer__logo { height: 24px; width: auto; opacity: 0.9; }
+.footer__logo { height: 32px; width: auto; opacity: 0.9; }
 .footer__meta { margin: 0; font-size: 0.92rem; }
 
 /* Trust signals */
