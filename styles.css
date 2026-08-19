@@ -258,6 +258,12 @@ button:focus-visible,
 }
 .section__title--center { text-align: center; }
 
+.section__subtitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 2.2rem 0 0.8rem;
+}
+
 .section__lead {
   font-size: 1.15rem;
   color: var(--ink-soft);
@@ -401,12 +407,32 @@ button:focus-visible,
 /* --------------------------------------------------------------------------
    Health check: fixed-price entry offer
    -------------------------------------------------------------------------- */
+.healthcheck__tiers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 1.8rem 0 1.2rem;
+}
+.healthcheck__tier {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.6rem 1.5rem;
+  box-shadow: var(--shadow);
+}
+.healthcheck__tier-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+}
+#healthcheck .healthcheck__tier-body { font-size: 0.98rem; margin: 0; }
+#healthcheck .healthcheck__credit { font-weight: 600; color: var(--ink); }
 /* The id keeps this ahead of the generic `.section p` colour/size rules */
 #healthcheck .healthcheck__price {
   font-size: 2.1rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  margin: 1.6rem 0 0.6rem;
+  margin: 0.5rem 0 0.6rem;
   color: var(--ink);
 }
 .healthcheck__price span {
@@ -582,6 +608,8 @@ button:focus-visible,
 
   .cards,
   .cards--three { grid-template-columns: 1fr; }
+
+  .healthcheck__tiers { grid-template-columns: 1fr; }
 
   .hero__inner { padding: 4rem 1.5rem 4.5rem; }
   .section { padding: 3.5rem 0; }
