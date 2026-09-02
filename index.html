@@ -21,10 +21,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:description" content="Kelicore specialises in infrastructure for venues, event spaces, holiday parks and marinas. WiFi and networks that hold up on a full-house night. Fixed-price health checks from £750. Cloud, AWS, on-prem and networks for any business. South West England.">
 
-  <!-- Fonts: Manrope is the brand typeface -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Fonts: Manrope is the brand typeface, self-hosted (see styles.css) -->
+  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="styles.css">
 
@@ -375,6 +373,10 @@
           </div>
 
           <button type="submit" class="btn btn--primary btn--lg">Send enquiry</button>
+          <p class="form__consent">
+            We only use your details to reply to your enquiry. See our
+            <a href="privacy.html">privacy policy</a>.
+          </p>
           <p class="form__status" role="status" aria-live="polite"></p>
         </form>
 
@@ -407,6 +409,9 @@
         &copy; <span id="year">2026</span> Kelicore Ltd. Cloud, on-prem and
         network infrastructure that just works.
       </p>
+      <ul class="footer__links" aria-label="Legal">
+        <li><a href="privacy.html">Privacy policy</a></li>
+      </ul>
     </div>
     <div class="container footer__trust">
       <span>Kelicore Ltd, registered in England &amp; Wales, company no. 12097128.</span>

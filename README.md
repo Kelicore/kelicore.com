@@ -11,10 +11,12 @@ as-is.
 | File | Purpose |
 | --- | --- |
 | `index.html` | The page (hero, venues, health check, proof, services, about, contact, footer). |
+| `privacy.html` | Privacy policy. Linked from the footer and the contact form. |
 | `styles.css` | All styling. Brand palette and responsive layout. |
 | `favicon.svg` / `favicon.ico` / `favicon-32.png` / `apple-touch-icon-180.png` | Favicons from the Kelicore icon. |
 | `CNAME` | Tells GitHub Pages to serve on the custom domain. |
 | `assets/` | The logos and social-preview image actually used by the page. |
+| `assets/fonts/` | Manrope, self-hosted so no visitor request goes to Google Fonts. |
 
 > The full brand logo set lives outside this repo, in
 > `~/Downloads/kelicore-logo-bundle/` (SVG masters, PNG exports, favicons and
@@ -27,7 +29,8 @@ From the logo bundle README:
 - Orange `#FF4D00` (accent)
 - Slate `#3C4655` (wordmark on light backgrounds, dark surfaces)
 - Light `#E8ECF1` (wordmark on dark backgrounds)
-- Typeface: Manrope (Google Fonts)
+- Typeface: Manrope (self-hosted variable font in `assets/fonts/`, latin and
+  latin-ext subsets, taken from Google Fonts v20)
 - Tagline: "Infrastructure that just works, wherever it runs."
 
 ## Launch checklist
