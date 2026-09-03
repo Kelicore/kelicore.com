@@ -42,8 +42,7 @@ From the logo bundle README:
       Optional: restrict the key to kelicore.com in the Web3Forms dashboard so
       other sites cannot use it to spam the inbox.
 - [ ] Set up the `hello@kelicore.com` mailbox.
-- [ ] Replace the `[TODO]` company number in the footer once Kelicore Ltd is
-      registered.
+- [x] Company number in the footer (12097128).
 
 ## Local preview
 
