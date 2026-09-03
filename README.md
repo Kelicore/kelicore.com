@@ -38,9 +38,9 @@ From the logo bundle README:
 - [ ] Create the GitHub repo (e.g. `Kelicore/kelicore.com`) and push `main`.
 - [ ] Enable GitHub Pages (see below) and enforce HTTPS once the cert issues.
 - [ ] Point DNS at GitHub Pages (records below).
-- [ ] **Web3Forms**: the contact-form access key in `index.html` is domain-locked
-      to cloudifinity.com. Create a new access key for kelicore.com (or add the
-      domain to the existing key) in the Web3Forms dashboard and replace it.
+- [x] **Web3Forms**: contact form tested working from kelicore.com (2026-09-03).
+      Optional: restrict the key to kelicore.com in the Web3Forms dashboard so
+      other sites cannot use it to spam the inbox.
 - [ ] Set up the `hello@kelicore.com` mailbox.
 - [ ] Replace the `[TODO]` company number in the footer once Kelicore Ltd is
       registered.

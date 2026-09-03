@@ -334,12 +334,10 @@
           Friday night? Tell us what you are dealing with and we will tell you
           honestly how we can help.
         </p>
-        <!-- Web3Forms access key (public by design; it only permits submissions,
-             the domain lock in the Web3Forms dashboard prevents abuse). -->
-        <!-- TODO: WEB3FORMS_KEY: this key is domain-locked to cloudifinity.com.
-             Create a new access key for kelicore.com (or add the domain to the
-             existing key) in the Web3Forms dashboard before launch, then
-             replace the value below. -->
+        <!-- Web3Forms access key. Public by design: it only permits submissions
+             to the registered inbox. Tested working from kelicore.com on
+             2026-09-03. Restrict it to kelicore.com in the Web3Forms dashboard
+             to stop other sites using it to spam the inbox. -->
         <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="3d0f3ae3-8af6-45b0-99b5-92fe1067adc7">
           <input type="hidden" name="subject" value="New enquiry from kelicore.com">
