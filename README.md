@@ -41,7 +41,7 @@ From the logo bundle README:
 - [x] **Web3Forms**: contact form tested working from kelicore.com (2026-09-03).
       Optional: restrict the key to kelicore.com in the Web3Forms dashboard so
       other sites cannot use it to spam the inbox.
-- [ ] Set up the `hello@kelicore.com` mailbox.
+- [ ] Set up the `info@kelicore.com` mailbox.
 - [x] Company number in the footer (12097128).
 
 ## Local preview
@@ -98,5 +98,5 @@ issue a TLS certificate for the domain, at which point you can enforce HTTPS.
 ## Editing content
 
 The copy lives directly in `index.html`. Service cards are in the
-`#services` section, contact details point at `hello@kelicore.com`. Update
+`#services` section, contact details point at `info@kelicore.com`. Update
 the text in place and push.

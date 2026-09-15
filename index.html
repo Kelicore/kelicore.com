@@ -39,7 +39,7 @@
     "logo": "https://kelicore.com/assets/logo-light-bg.svg",
     "image": "https://kelicore.com/assets/og-image.png",
     "description": "Independent, founder-led infrastructure practice specialising in venues, event spaces, holiday parks and marinas. The same engineering applied to any business-critical environment: cloud, AWS, on-premises, networks and WiFi.",
-    "email": "hello@kelicore.com",
+    "email": "info@kelicore.com",
     "telephone": "+44 1626 798121",
     "address": {
       "@type": "PostalAddress",
@@ -118,7 +118,7 @@
         </p>
         <!-- TODO: BOOKING_URL: replace the primary CTA href with a booking link if you want one. Falls back to mailto for now. -->
         <div class="hero__actions">
-          <a class="btn btn--primary" href="mailto:hello@kelicore.com?subject=Infrastructure%20enquiry">Get in touch</a>
+          <a class="btn btn--primary" href="mailto:info@kelicore.com?subject=Infrastructure%20enquiry">Get in touch</a>
           <a class="btn btn--ghost" href="#venues">See our venue work</a>
         </div>
         <ul class="hero__chips" aria-label="What we do">
@@ -171,7 +171,7 @@
         </p>
         <ul class="tier__list">
           <li>WiFi coverage and capacity surveyed across your site, dead spots included</li>
-          <li>Network performance, security and resilience checked end to end</li>
+          <li>Network performance, security and resilience checked end to end, including whether guest WiFi is kept properly apart from your box office, tills and card terminals</li>
           <li>Written report with prioritised recommendations, delivered within a week</li>
         </ul>
         <div class="healthcheck__tiers">
@@ -189,6 +189,14 @@
         <p class="healthcheck__credit">
           Fully credited against any project or managed service agreed within
           3 months.
+        </p>
+        <p>
+          Attacks on small networks are automated now, and AI has made them
+          cheaper and faster still. Scanning tools find an exposed router or a
+          flat network in minutes, and nobody has to pick your venue out
+          specifically. The check covers the basics that stop that: guest
+          traffic kept away from payment and back-office systems, remote
+          access locked down, and kit that is still getting security updates.
         </p>
         <p>
           No obligation and no contract, just a low-risk first step, so you
@@ -275,7 +283,9 @@
               Servers, storage and on-prem systems specified, deployed and
               maintained, plus the networks, WiFi and connectivity
               underneath. The reliable, hands-on foundation, built properly and
-              easy to live with.
+              easy to live with. Guest and staff networks kept separate,
+              remote access locked down and everything kept patched, so an
+              automated scan finds nothing worth stopping for.
             </p>
           </article>
 
@@ -392,7 +402,7 @@
 
         <p class="contact-alt">
           Prefer to talk directly?
-          <a href="mailto:hello@kelicore.com">hello@kelicore.com</a>
+          <a href="mailto:info@kelicore.com">info@kelicore.com</a>
           or call <a href="tel:+441626798121">01626 798121</a>.
         </p>
       </div>
@@ -461,7 +471,7 @@
       var statusEl = form.querySelector('.form__status');
       var showError = function (msg) {
         statusEl.className = 'form__status is-error';
-        statusEl.textContent = msg || 'Something went wrong. Please email hello@kelicore.com.';
+        statusEl.textContent = msg || 'Something went wrong. Please email info@kelicore.com.';
       };
       form.addEventListener('submit', function (e) {
         e.preventDefault();
