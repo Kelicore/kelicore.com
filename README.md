@@ -10,7 +10,7 @@ as-is.
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | The page (hero, venues, health check, proof, services, about, contact, footer). |
+| `index.html` | The page (hero, who we work with, health check, recent work, services, about, contact, footer). |
 | `privacy.html` | Privacy policy. Linked from the footer and the contact form. |
 | `styles.css` | All styling. Brand palette and responsive layout. |
 | `favicon.svg` / `favicon.ico` / `favicon-32.png` / `apple-touch-icon-180.png` | Favicons from the Kelicore icon. |

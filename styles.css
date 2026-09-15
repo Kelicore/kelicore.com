@@ -315,11 +315,6 @@ button:focus-visible,
 .card--feature .card__title { font-size: 1.5rem; }
 .card--feature .card__body { font-size: 1.08rem; max-width: 62ch; }
 
-/* The services feature card is full-width, so centre its content, otherwise the
-   width-capped body sits against the left edge and leaves a lopsided empty gap. */
-#services .card--feature { text-align: center; }
-#services .card--feature .card__body { margin-inline: auto; }
-
 .card__tag {
   display: inline-block;
   margin: 0 0 0.4rem;
